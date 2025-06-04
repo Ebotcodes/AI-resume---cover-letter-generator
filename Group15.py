@@ -249,14 +249,6 @@ class ResumeTool:
             if para.startswith("##") and para.endswith("##"):
                 heading_text = para.strip("# ").title()
                 p = doc.add_paragraph(heading_text, style='Heading 1')
-                # Optional: add a run if you want to set font again
-                # run = p.runs[0]
-                # run.font.name = 'Roboto'
-                # run.font.size = Pt(16)
-                # run.font.bold = True
-                # rFonts = run._element.rPr.rFonts
-                # rFonts.set(qn('w:eastAsia'), 'Roboto')
-
             elif para.startswith("- ") or para.startswith("• "):
                 p = doc.add_paragraph(para[2:].strip(), style='List Bullet')
                 run = p.runs[0]
