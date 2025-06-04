@@ -5,6 +5,7 @@
 A Python application that uses AI (Together.ai's API) to generate tailored resumes and cover letters based on your existing resume and a job description. The tool supports PDF, DOCX, and TXT output formats, and includes features like keyword matching analysis and customizable tone/length options.
 
 #Features
+
 -AI-Powered Tailoring: Generates resumes and cover letters optimized for specific job descriptions
 
 -Multiple Formats: Export to PDF, DOCX, or TXT
@@ -20,6 +21,7 @@ A Python application that uses AI (Together.ai's API) to generate tailored resum
 -Multi-threading: Prevents UI freezing during generation
 
 #Technologies Used
+
 -Python 3.13.2
 
 -Together.ai API (Mixtral-8x7B-Instruct model)
